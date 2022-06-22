@@ -6,7 +6,7 @@ class Styles {
       scaffoldBackgroundColor: isDarkTheme ? Colors.black : Colors.white,
       primaryColor: Colors.blue,
       colorScheme: ThemeData().colorScheme.copyWith(
-            secondary: isDarkTheme ? Colors.black : Colors.white,
+            secondary: isDarkTheme ? Colors.blue : Colors.white,
             brightness: isDarkTheme ? Brightness.dark : Brightness.light,
           ),
       cardColor: isDarkTheme ? Colors.black : Colors.white,
